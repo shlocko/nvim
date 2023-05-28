@@ -21,6 +21,12 @@ return require('packer').startup(function(use)
         end
     })
 
+    use { "catppuccin/nvim", as = "catppuccin" }
+    use { "ellisonleao/gruvbox.nvim" }
+    use { "bluz71/vim-moonfly-colors", as = "moonfly" }
+    use 'rmehri01/onenord.nvim'
+    use 'AlexvZyl/nordic.nvim'
+
     use({
         "folke/trouble.nvim",
         config = function()
