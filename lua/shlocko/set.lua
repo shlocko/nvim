@@ -1,7 +1,11 @@
 --vim.opt.guicursor = ""
 
+vim.opt.backupcopy = "yes"
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
+
+vim.opt.mouse = ""
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
