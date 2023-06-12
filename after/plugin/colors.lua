@@ -11,4 +11,4 @@ function ColorMyPencils(color)
 
 end
 
-ColorMyPencils("catppuccin-latte")
+ColorMyPencils("nordic")
