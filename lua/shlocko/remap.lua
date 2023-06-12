@@ -1,3 +1,6 @@
+vim.keymap.set("n", "<leader>td", function() vim.cmd.colorscheme("nordic") end)
+vim.keymap.set("n", "<leader>tl", function() vim.cmd.colorscheme("catppuccin-latte") end)
+
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
