@@ -5,6 +5,7 @@ vim.keymap.set("n", "<S-h>", ":bprevious<CR>")
 vim.keymap.set("n", "<S-l>", ":bnext<CR>")
 --vim.keymap.set("n", "<leader>c", ":bdelete<CR>:NvimTreeToggle<CR>:NvimTreeToggle<CR><C-W>l")
 vim.keymap.set("n", "<leader>c", ":bp|bd #<CR>")
+vim.keymap.set("n", "<leader>q", ":q<CR>")
 
 vim.keymap.set("n", "<C-h>", "<C-W>h")
 vim.keymap.set("n", "<C-j>", "<C-W>j")
