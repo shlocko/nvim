@@ -111,4 +111,5 @@ return require('packer').startup(function(use)
     }
     use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
     use {"ggandor/leap.nvim"}
+    use 'lervag/vimtex'
 end)
