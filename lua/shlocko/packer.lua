@@ -114,5 +114,4 @@ return require('packer').startup(function(use)
     use 'lervag/vimtex'
     use('jose-elias-alvarez/null-ls.nvim')
     use('MunifTanjim/prettier.nvim')
-    use('MunifTanjim/eslint.nvim')
 end)
